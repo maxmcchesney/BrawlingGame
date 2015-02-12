@@ -14,12 +14,14 @@ class Player: NSObject {
     var displayName = ""
     var skin: UIImage?
     
-    func attackWithDamage(damage: Int) {
+    func attackWithDamage(damage: Int) -> Int {
         // damage reduction based on armor powerup
         
         healthPoints -= damage
         
         println(displayName + " has \(healthPoints) left")
+        
+        return healthPoints
         
     }
    

@@ -88,13 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				A9A388221A8B9E27008EEF8C /* Models */,
-				A9A387FE1A8B9ACB008EEF8C /* AppDelegate.swift */,
 				A9A388001A8B9ACB008EEF8C /* GameScene.sks */,
 				A9A388021A8B9ACB008EEF8C /* GameScene.swift */,
 				A9A388041A8B9ACB008EEF8C /* GameViewController.swift */,
 				A9A388061A8B9ACB008EEF8C /* Main.storyboard */,
-				A9A388091A8B9ACB008EEF8C /* Images.xcassets */,
-				A9A3880B1A8B9ACB008EEF8C /* LaunchScreen.xib */,
 				A9A387FC1A8B9ACB008EEF8C /* Supporting Files */,
 			);
 			path = Brawling;
@@ -103,6 +100,9 @@
 		A9A387FC1A8B9ACB008EEF8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9A387FE1A8B9ACB008EEF8C /* AppDelegate.swift */,
+				A9A388091A8B9ACB008EEF8C /* Images.xcassets */,
+				A9A3880B1A8B9ACB008EEF8C /* LaunchScreen.xib */,
 				A9A387FD1A8B9ACB008EEF8C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -435,6 +435,7 @@
 				A9A3881E1A8B9ACB008EEF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9A3881F1A8B9ACB008EEF8C /* Build configuration list for PBXNativeTarget "BrawlingTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +444,7 @@
 				A9A388211A8B9ACB008EEF8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

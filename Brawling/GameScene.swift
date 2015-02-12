@@ -18,6 +18,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var playerNodes: [PlayerNode] = []
     var projectileNodes: [ProjectileNode] = []
+    var newHealth: Int?
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
@@ -44,6 +45,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             let pNode = contact.bodyB.node as PlayerNode
             
             pNode.player?.attackWithDamage(projectile.damage)
+
+//            newHealth = pNode.player?.attackWithDamage(0)
+            
+//            println(newHealth)
             
             projectile.removeFromParent()
             
@@ -57,6 +62,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             let pNode = contact.bodyA.node as PlayerNode
             
             pNode.player?.attackWithDamage(projectile.damage)
+            
+//            newHealth = pNode.player?.attackWithDamage(0)
+            
+//            println(newHealth)
+            
+            
             
             projectile.removeFromParent()
             
